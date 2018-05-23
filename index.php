@@ -23,7 +23,20 @@
 </head>
 <body>
 
-
+    <div class="gridContainer">
+        <div class="item1">Header</div>
+        <section class="intro">
+            <article class="intro__welcome"><h1 class="intro__welcome--welcomeTxt">We connect brands and influencers</h1></article>
+            <article class="intro__welcomeImg">Intro billede her</article>
+        </section>
+        <section class="videoContainer">
+            <div class="videoContainer__video"></div>
+        </section>
+        <section class="keyFeaturesContainer">
+            <div class="keyFeaturesContainer__keyFeatures"></div>
+        </section>
+        <footer class="item3">footer</footer>
+    </div>
 
 
 <!-- Scripts -->

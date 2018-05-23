@@ -1,0 +1,133 @@
+/*------- Global variables ------- */
+/* Fonts */
+
+@font-stack {
+    font-family: font-stack;
+	src: url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+}
+
+$font-stack: Rubik, sans-serif;
+
+/* Colors */
+$theme-color: #07d765;
+$dark-color: #262626;
+$light-color: #f1f7fd;
+
+$light-gradient: #fff;
+$dark-gradient: #dfeaf6;
+
+/* Font sizes */
+$heading-size-large: 46px;
+$heading-size-medium: 30px;
+$heading-size-small: 18px;
+
+$paragraph-size: 16px;
+$button-size: 20px;
+
+/* Font weights */
+$heading-weight-large: 700;
+$heading-weight-medium: 700;
+$heading-weight-small: 500;
+
+$paragraph-weight: 400;
+$button-weight: 400;
+
+/*------- Global ------- */
+
+body {
+    font-family: $font-stack;
+}
+
+h1, h2 {
+    font-size:$heading-size-large;
+    font-weight:$heading-weight-large;
+}
+
+h3 {
+    font-size:$heading-size-medium;
+    font-weight:$heading-weight-medium;
+}
+
+h4 {
+    font-size:$heading-size-small;
+    font-weight:$heading-weight-small;
+}
+
+strong {
+    color:$theme-color;
+}
+
+button {
+    background-color: $theme-color;
+    font-size:$button-size;
+    padding: 20px 40px;
+    font-weight:$button-weight;
+}
+
+/*------- Base layout ------- */
+
+.gridContainer {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #2196F3;
+}
+
+/*------- Header ------- */
+html, body, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    height:100vh;
+    background:linear-gradient(180deg, $light-gradient, $dark-gradient);
+}
+
+/*------- Footer ------- */
+
+footer {
+    background-color:paleturquoise;
+}
+
+/*------- Index ------- */
+.intro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    &__welcome {
+        background-color:red;
+        width:100%;
+        
+        &--welcomeTxt {
+            max-width:450px;
+        }
+    }
+    
+    &__welcomeImg {
+        background-color:blue;
+    }
+}
+
+.videoContainer {
+    display:grid;
+    background-color:yellow;
+    
+    &__video {
+        background-color:#000;
+        width:830px;
+        height:467px;
+        margin:auto;
+    }
+}
+
+.keyFeaturesContainer {
+    display:grid;
+    background-color:yellow;
+    
+    &__keyFeatures {
+        background-color:pink;
+        width:300px;
+        height:800px;
+        margin:auto;
+    }
+}
