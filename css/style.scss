@@ -11,9 +11,8 @@ $font-stack: Rubik, sans-serif;
 /* Colors */
 $theme-color: #07d765;
 $dark-color: #262626;
-$light-color: #f1f7fd;
+$light-color: #f2f7fd;
 
-$light-gradient: #fff;
 $dark-gradient: #dfeaf6;
 
 /* Font sizes */
@@ -23,6 +22,7 @@ $heading-size-small: 18px;
 
 $paragraph-size: 16px;
 $button-size: 20px;
+$menu-size: 18px;
 
 /* Font weights */
 $heading-weight-large: 700;
@@ -31,6 +31,7 @@ $heading-weight-small: 500;
 
 $paragraph-weight: 400;
 $button-weight: 400;
+$menu-weight:500;
 
 /*------- Global ------- */
 
@@ -64,70 +65,251 @@ button {
     font-weight:$button-weight;
 }
 
-/*------- Base layout ------- */
+/*------- Resets ------- */
+
+html, body, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/*------- Grid layout ------- */
 
 .gridContainer {
-  display: grid;
-  grid-gap: 10px;
-  background-color: #2196F3;
+    display: grid;
+    padding-top:95px; /*Samme værdi som headeren, så indhold ikke bliver skjult af headeren*/
 }
 
 /*------- Header ------- */
-html, body, ul, ol {
-  margin: 0;
-  padding: 0;
+
+header {
+    z-index:2;
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    background-color:#fff;
+    height:95px;
+    position:fixed;
+    width:100%;
+    
+    img {
+        margin: auto;
+        margin-top:25px;
+        text-align:center;
+    }
 }
 
-body {
-    height:100vh;
-    background:linear-gradient(180deg, $light-gradient, $dark-gradient);
+.menu {
+    text-align: right;
+    border-right: solid $dark-color 1px;
+    padding-top:35px;
+    margin-right:5%;
+    
+    &__menuBtn {
+        display: inline;
+        margin-right:5%;
+        
+        &--menuLink {
+            color:$dark-color;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size:$menu-size;
+            font-weight: $menu-weight;
+            
+            &:hover {
+                color:$theme-color;
+            }
+            
+        }
+        
+    }
+}
+
+.rightMenu {
+    margin-top:20px;
+    color:$dark-color;
+    font-size: ($menu-size + 2);
+    
+    li {
+        list-style-type: none;
+        margin-bottom:10px;
+    }
+    
+    a {
+        margin-top: 0;
+        text-decoration: none;
+        color:$theme-color;
+        
+        &:hover {
+            color:$dark-color;
+        }
+        
+    }
+    
+    i {
+        text-align: center;
+        width:25px;
+    }
+    
 }
 
 /*------- Footer ------- */
 
 footer {
-    background-color:paleturquoise;
+    background-color:blueviolet;
 }
 
 /*------- Index ------- */
 .intro {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
+    background-color:$light-color;
     
     &__welcome {
-        background-color:red;
-        width:100%;
+        max-width:500px;
+        margin:auto;
+        margin-top:180px;
         
         &--welcomeTxt {
-            max-width:450px;
+            margin:0;
+            margin-left:15px;
+            margin-right:15px;
+        }
+        
+        &--welcomeParagraph {
+            line-height:30px;
+            margin:0;
+            margin-left:15px;
+            margin-right:15px;
+        }
+        
+        button {
+            background-color:$theme-color;
+            border: none;
+            border-radius:12px;
+            padding: 10px 15px;
+            color:$light-color;
+            margin-right:15px;
+            margin-top:20px;
+            margin-left:15px;
+            
+            &:hover {
+                background-color: $dark-color;
+            }
+            
+            i {
+                width:20px;
+                margin-right:10px;
+            }
         }
     }
     
     &__welcomeImg {
-        background-color:blue;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index:1;
+        padding-top:50px;
+    }
+    
+    .iphoneInstagram {
+        position:relative;
+        z-index:1;
+        height: auto;
+    }
+    
+    .likesAndHearts {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index:2;
+        max-width:761px;
+        width:100%;
+        height: auto;
+        padding-top:15px;
     }
 }
 
 .videoContainer {
     display:grid;
-    background-color:yellow;
+    background-color:$theme-color;
+    background-image:url(../images/bgwave-home-01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top:-100px;
     
     &__video {
-        background-color:#000;
-        width:830px;
-        height:467px;
+        background-color:$dark-color;
+        width: 90%;
+        max-width:720px;
+        height: 400px;
         margin:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    
+    &__videoHeading {
+        text-align: center;
+        color:$light-color;
+        margin:0;
+        padding:0;
+        padding-top:200px;
     }
 }
 
 .keyFeaturesContainer {
     display:grid;
-    background-color:yellow;
+    grid-template-columns: 2fr 1fr 2fr;
+    background-image:url(../images/bgwave-home-02.png), linear-gradient(180deg, $light-color, $dark-gradient);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top:450px;
+    
+    &__keyFeaturesHeading {
+        text-align: center;
+        margin:0;
+        margin-bottom:50px;
+    }
     
     &__keyFeatures {
-        background-color:pink;
-        width:300px;
-        height:800px;
         margin:auto;
+        text-align: center;
+    }
+    
+    &__keyFeaturesLeft {
+        text-align: right;
+        padding-top:200px;
+        
+        h3 {
+            width:60%;
+            float: right;
+            margin:0;
+        }
+        
+        p {
+            width:60%;
+            float:right;
+            margin:0;
+            margin-bottom:40px;
+        }
+        
+    }
+    &__keyFeaturesRight {
+        text-align: left;
+        padding-top:200px;
+        
+        h3 {
+            width:60%;
+            float: left;
+            margin:0;
+        }
+        
+        p {
+            width:60%;
+            float:left;
+            margin:0;
+            margin-bottom:40px;
+        }
+        
     }
 }
