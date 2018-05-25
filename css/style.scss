@@ -61,8 +61,21 @@ strong {
 button {
     background-color: $theme-color;
     font-size:$button-size;
-    padding: 20px 40px;
     font-weight:$button-weight;
+    border: none;
+    border-radius:12px;
+    padding: 10px 15px;
+    color:$light-color;
+    cursor:pointer;
+    
+    &:hover {
+        background-color: $dark-color;
+    }
+
+    i {
+        width:20px;
+        margin-right:10px;
+    }
 }
 
 /*------- Resets ------- */
@@ -154,7 +167,58 @@ header {
 /*------- Footer ------- */
 
 footer {
-    background-color:blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:$theme-color;
+    background-image:url(../images/footer-wave.jpg);
+    background-repeat: no-repeat;
+    height:160px;
+    
+    img {
+        margin:auto;
+        margin-top:80px;
+    }
+    
+    .footerCenterContent {
+        margin:auto;
+        margin-top:80px;
+        
+        button {
+            background-color:#1fac5f;
+            margin: 0px 15px;
+            
+            &:hover {
+                background-color:$dark-color;
+            }
+            
+        }
+        
+        small {
+            width:100%;
+            color:$light-color;
+            display: block;
+            text-align: center;
+            margin-top:10px;
+        }
+    }
+    
+    .socialMedia {
+        
+        
+        text-align: center;
+        margin-top:80px;
+        font-size:25px;
+        
+        a {
+            margin-right:15px;
+            color:$light-color;
+            
+            &:hover {
+                color:$dark-color;
+            }
+        }
+        
+    }
 }
 
 /*------- Index ------- */
@@ -182,23 +246,9 @@ footer {
         }
         
         button {
-            background-color:$theme-color;
-            border: none;
-            border-radius:12px;
-            padding: 10px 15px;
-            color:$light-color;
             margin-right:15px;
             margin-top:20px;
             margin-left:15px;
-            
-            &:hover {
-                background-color: $dark-color;
-            }
-            
-            i {
-                width:20px;
-                margin-right:10px;
-            }
         }
     }
     
@@ -263,7 +313,8 @@ footer {
     background-image:url(../images/bgwave-home-02.png), linear-gradient(180deg, $light-color, $dark-gradient);
     background-repeat: no-repeat;
     background-size: contain;
-    padding-top:450px;
+    padding-top:350px;
+    padding-bottom:25px;
     
     &__keyFeaturesHeading {
         text-align: center;
@@ -311,5 +362,53 @@ footer {
             margin-bottom:40px;
         }
         
+    }
+}
+
+.dashboardContainer {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    background-image:url(../images/bgwave-home-03.png), linear-gradient(180deg, $light-color, $dark-gradient);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:900px;
+    margin-top:-20px;
+    
+    button {
+        margin-top:40px;
+    }
+    
+    &__dashboardIndex {
+        text-align: center;
+        margin-top:350px;
+        max-width:608px;
+        float: right;
+        padding-right:50px;
+    }
+    
+    &__dashboardInformation {
+        margin-left:10px;
+        
+        h4, p {
+            margin:0;
+        }
+        
+        p {
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+        
+        h4 {
+            margin-bottom:20px;
+        }
+        
+    }
+    
+    &__dashboardHeading {
+        float:left;
+        margin:0;
+        margin-bottom:50px;
+        margin-top:350px;
+        max-width:500px;
     }
 }

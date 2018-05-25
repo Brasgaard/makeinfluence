@@ -68,7 +68,21 @@
                 <p>Lorem ipsum dolor sit amet, duo simul audire an. Est cu sapientem sadipscing, duis legimus eum. Me it ipsum sit amet, duo simul audire an.</p>
             </article>
         </section>
-        <footer class="item3">footer</footer>
+        <section class="dashboardContainer"><div></div>
+            <img src="images/dashboard-statistics.jpg" alt="Dashboard with statistics" class="dashboardContainer__dashboardIndex">
+            <article class="dashboardContainer__dashboardInformation">
+                <h3 class="dashboardContainer__dashboardHeading">Effective dashboard for businesses</h3>
+                <h4>Text</h4>
+                <p>Lorem ipsum dolor sit amet, duo simul audire an.</p>
+                <h4>Text</h4>
+                <p>Lorem ipsum dolor sit amet, duo simul audire an.</p>
+                <h4>Text</h4>
+                <p>Lorem ipsum dolor sit amet, duo simul audire an.</p>
+                <a href="business.php"><button>Learn more</button></a>
+            </article>
+            <div></div>
+        </section>
+        <?php include'include/footer.php'?>
     </div>
 
 
