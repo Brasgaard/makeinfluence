@@ -54,7 +54,7 @@
             </article>
             <article class="founders__Rasmus">
                 <img src="images/rasmus-bruus-larsen.jpg" alt="Rasmus Bruus Larsen" class="founders__Rasmus--img">
-                <h3 class="founders__Kapser--h3">Rasmus Bruus Larsen</h3>
+                <h3 class="founders__Rasmus--h3">Rasmus Bruus Larsen</h3>
                 <p class="founders__Rasmus--p">Lorem ipsum dolor sit amet, duo simul audire an. Est cu sapientem sadipscing, duis legimus eum. Me it ipsum sit amet, duo simul audire an.</p>
             </article>
         </section>

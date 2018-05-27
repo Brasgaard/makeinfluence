@@ -412,3 +412,138 @@ footer {
         max-width:500px;
     }
 }
+
+/*------- About ------- */
+.aboutIntro {
+    display: grid;
+    grid-template-columns: 60% 40%;
+	background-image: url(../images/bgwave-intro-image.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+	
+	&__text {
+		max-width: 500px;
+		margin: auto;
+		margin-top: 75px;
+		
+		&--header {
+			margin: 0;
+			margin-left: 0;
+			margin-right: 15px;
+		}
+		
+		&--paragraph {
+			line-height: 30px;
+			margin: 0;
+			margin-left: 0;
+			margin-right: 15px;
+			margin-top: 30px;
+		}
+	}
+	
+	&__img {
+		text-align: center;
+		width: 100%;
+		height: auto;
+		position: relative;
+		z-index: 1;
+		padding-top: 50px;
+		margin-right: 300px;
+		
+		&--polaroids {
+			position: relative;
+			z-index: 1;
+			height: auto;
+		}
+	}
+}
+
+.moreInformation {
+	display: grid;
+	grid-template-areas: 
+		'title title'
+		'left right';
+	grid-gap: 25px;
+	background-color: $light-color;
+	padding-top: 100px;
+	padding-bottom: 25px;
+	
+	&__h1 {
+		text-align: center;
+		position: relative;
+		grid-area: title;
+		margin-bottom: 50px;
+	}
+	
+	&__DYK {
+		text-align: center;
+		grid-area: left;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	
+	&__optimize {
+		text-align: center;
+		grid-area: right;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+
+.founders {
+	display: grid;
+	grid-template-areas: 
+		'kasper'
+		'rasmus';
+	grid-gap: 20px;
+	padding: 10px;
+	background-color: linear-gradient(180deg, $light-color, $dark-gradient);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: -20px;
+	content: "";
+	clear: both;
+	
+	&__Kasper {
+		text-align: center;
+		margin-top: 150px;
+		max-width: 608px;
+		padding-right: 50px;
+		
+		&--img {
+			grid-area: kasper;
+			margin-left: 100px;
+			float: left;
+		}
+		
+		&--h3 {
+			grid-area: kasper;
+		}
+		
+		&--p {
+			grid-area: kasper;
+			
+		}
+	}
+	
+	&__Rasmus {
+		text-align: center;
+		margin-top: 100px;
+		max-width: 608px;
+		padding-right: 50px;
+		
+		&--img {
+			grid-area: rasmus;
+			margin-left: 100px;
+			float: left;
+		}
+		
+		&--h3 {
+			grid-area: rasmus;
+		}
+		
+		&--p {
+			grid-area: rasmus;
+		}
+	}
+}
