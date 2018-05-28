@@ -276,7 +276,7 @@ footer {
 /*------- About ------- */
 .aboutIntro {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 40% 60%;
   background-image: url(../images/bgwave-intro-image.jpg);
   background-repeat: no-repeat;
   background-size: contain; }
@@ -337,14 +337,10 @@ footer {
   padding: 10px;
   background-color: linear-gradient(180deg, #f2f7fd, #dfeaf6);
   background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: -20px;
-  content: "";
-  clear: both; }
+  background-repeat: no-repeat; }
   .founders__Kasper {
-    text-align: center;
+    text-align: right;
     margin-top: 150px;
-    max-width: 608px;
     padding-right: 50px; }
     .founders__Kasper--img {
       grid-area: kasper;
@@ -355,9 +351,8 @@ footer {
     .founders__Kasper--p {
       grid-area: kasper; }
   .founders__Rasmus {
-    text-align: center;
+    text-align: right;
     margin-top: 100px;
-    max-width: 608px;
     padding-right: 50px; }
     .founders__Rasmus--img {
       grid-area: rasmus;
