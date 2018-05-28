@@ -428,6 +428,7 @@ footer {
     background-repeat: no-repeat;
     min-height:885px;
     background-size: cover;
+    padding-bottom: 100px;
     
     &__businessIntroContent {
         margin-top:150px;
@@ -593,6 +594,169 @@ footer {
                 margin-top:80px;
                 background-color:#85a191;
             }     
+        }
+    }
+}
+
+/*------- Influencer.php ------- */
+
+.introInfluencer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image:url(../images/bgwave-intro-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    min-height: 885px;
+   
+
+    &__startHeading {
+        margin-top: 50px;
+        margin-right: 50px;
+
+        &--paragraphTxt {
+            max-width: 700px;
+            line-height: 1.6;
+        }
+    }
+
+    .mobileBlog {
+        margin-left: 100px;
+        width: 65%;
+    }
+
+    .appstoreImg {
+    float: right;
+    margin-right: 237px;
+    }
+
+    .googleplayImg {
+    float: right;
+    margin-right: 3px;
+    }
+}
+
+.stepGuide {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    background-color:$light-color;
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+    &__middle {
+
+        &--howItWorksTxt {
+            text-align: center;
+            margin-bottom: 120px;
+        }
+
+        &--promoteTxt {
+            text-align: left;
+        }
+
+        &--paragraphTxt {
+            max-width: 300px;
+            text-align: left;
+            line-height: 1.6;
+        }
+    }
+
+    &__left {
+        
+        &--signUpTxt {
+            text-align: left;
+            margin-top: 213px;
+            margin-left: 300px;
+        }
+
+        &--paragraphTxt {
+            max-width: 300px;
+            text-align: left;
+            margin-left: 300px;
+            line-height: 1.6;
+        }
+    }
+
+    &__right {
+
+        &--getPaidTxt {
+            text-align: left;
+            margin-top: 213px;
+            margin-left: 40px;
+        }
+
+        &--paragraphTxt {
+            max-width: 300px;
+            text-align: left;
+            margin-left: 40px;
+            line-height: 1.6;
+        }
+    }
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 50% 50%;
+     background-image:url(../images/bgwave-business-01.png), linear-gradient(180deg, #fff, $dark-gradient);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 250px;
+    padding-bottom: 100px;
+
+    &__left {
+        margin-left: 20%;
+
+        &--pictures {
+            float: left;
+            margin-right: 20px;
+        }
+
+        &--paragraphTxt {
+            max-width: 650px;
+        }
+
+        &--follow {
+            text-align: right;
+            margin-right: 50px;
+            margin-bottom: 100px;
+            font-weight: 700;
+        }
+        
+        &--heading {
+            margin-bottom: 100px;
+        }
+    }
+
+    &__right {
+        margin-left: 50px;
+
+        &--pictures {
+            float: left;
+            margin-right: 20px;
+        }
+
+        &--paragraphTxt {
+            margin: 0;
+            max-width: 650px;
+        }
+
+        &--follow {
+            text-align: right;
+            margin-right: 170px;
+            margin-bottom: 100px;
+            font-weight: 700;
+        }
+        
+        &--picturesTest {
+            float: left;
+            margin-right: 20px;
+            margin-top: 190px;
+        }
+
+        &--paragraphTxtTest {
+            margin: 0;
+            max-width: 650px;
+            margin-top: 190px;
         }
     }
 }
