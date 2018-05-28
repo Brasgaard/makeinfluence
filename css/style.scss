@@ -764,15 +764,18 @@ footer {
 /*------- About ------- */
 .aboutIntro {
     display: grid;
-    grid-template-columns: 60% 40%;
-	background-image: url(../images/bgwave-intro-image.jpg);
+    grid-template-columns: 1fr 1fr;
+    background-image:url(../images/bgwave-intro-image.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    min-height:885px;
+    background-size: cover;
+    padding-bottom: 100px;
+    color:$dark-color;
+    padding-left:150px;
 	
 	&__text {
 		max-width: 700px;
 		margin: auto;
-		margin-top: 75px;
 		
 		&--header {
 			margin: 0;
@@ -783,26 +786,15 @@ footer {
 		&--paragraph {
 			line-height: 30px;
 			margin: 0;
-			margin-left: 0;
 			margin-right: 15px;
 			margin-top: 30px;
+            line-height: 35px;
 		}
 	}
 	
 	&__img {
-		text-align: center;
-		width: 100%;
-		height: auto;
-		position: relative;
-		z-index: 1;
-		padding-top: 50px;
-		margin-right: 300px;
-		
-		&--polaroids {
-			position: relative;
-			z-index: 1;
-			height: auto;
-		}
+		padding-top:50px;
+        max-width:686px;
 	}
 }
 
@@ -815,6 +807,7 @@ footer {
 	background-color: $light-color;
 	padding-top: 50px;
 	padding-bottom: 25px;
+    color:$dark-color;
 	
 	&__h1 {
 		text-align: center;
@@ -843,11 +836,10 @@ footer {
 	grid-template-areas: 
 		'kasper'
 		'rasmus';
-	grid-gap: 20px;
-	padding: 10px;
-	background-color: linear-gradient(180deg, $light-color, $dark-gradient);
+	background: linear-gradient(180deg, $light-color, $dark-gradient);
 	background-size: contain;
 	background-repeat: no-repeat;
+    color:$dark-color;
 	
 	&__Kasper {
 		text-align: left;
@@ -856,7 +848,7 @@ footer {
 		
 		&--img {
 			grid-area: kasper;
-			margin-left: 50px;
+			margin-left: 150px;
 			margin-right: 25px;
 			float: left;
 		}
@@ -876,10 +868,11 @@ footer {
 	&__Rasmus {
 		text-align: left;
 		margin-top: 50px;
+        
 		
 		&--img {
 			grid-area: rasmus;
-			margin-left: 50px;
+			margin-left: 150px;
 			margin-right: 25px;
 			float: left;
 		}

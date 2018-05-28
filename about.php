@@ -31,9 +31,7 @@
                 <h1 class="aboutIntro__text--header">How it all started</h1>
                 <p class="aboutIntro__text--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </article>
-            <article class="aboutIntro__img">
-                <img src="images/influencers-polaroid.png" alt="Influecers in action" class="aboutIntro__img--polariods">
-            </article>
+                <img src="images/influencers-polaroid.png" alt="Influencers in action" class="aboutIntro__img">
         </section>
         <section class="moreInformation">
             <h1 class="moreInformation__h1">More Information</h1>
