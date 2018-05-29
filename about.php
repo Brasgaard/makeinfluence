@@ -33,8 +33,9 @@
             </article>
                 <img src="images/influencers-polaroid.png" alt="Influencers in action" class="aboutIntro__img">
         </section>
+        <h2 class="moreInformationHeader">More Information</h2>
         <section class="moreInformation">
-            <h1 class="moreInformation__h1">More Information</h1>
+            <span></span>
             <article class="moreInformation__DYK">
                 <h3 class="moreInformation__DYK--h3">Did you know that</h3>
                 <p class="moreInformation__DYK--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -46,14 +47,20 @@
         </section>
         <section class="founders">
             <article class="founders__Kasper">
+                <span></span>
                 <img src="images/kasper-bondegaard-petersen.jpg" alt="Kasper Bondegaard Petersen" class="founders__Kasper--img">
-                <h3 class="founders__Kasper--h3">Kasper Bondegaard Petersen</h3>
-                <p class="founders__Kasper--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <article>
+                    <h3 class="founders__Kasper--h3">Kasper Bondegaard Petersen</h3>
+                    <p class="founders__Kasper--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
             </article>
             <article class="founders__Rasmus">
+                <span></span>
                 <img src="images/rasmus-bruus-larsen.jpg" alt="Rasmus Bruus Larsen" class="founders__Rasmus--img">
-                <h3 class="founders__Kapser--h3">Rasmus Bruus Larsen</h3>
-                <p class="founders__Rasmus--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <article>
+                    <h3 class="founders__Rasmus--h3">Rasmus Bruus Larsen</h3>
+                    <p class="founders__Rasmus--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
             </article>
         </section>
         <?php include'include/footer.php'?>

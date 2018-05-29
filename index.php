@@ -41,7 +41,7 @@
         </section>
         <section class="videoContainer">
             <h2 class="videoContainer__videoHeading">Our video</h2>
-            <iframe src="https://www.youtube.com/embed/WbsZnsr0lI4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="videoContainer__video"></iframe>
+            <iframe src="https://www.youtube.com/embed/SrC3bwgwQ4A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="videoContainer__video"></iframe>
         </section>
         <section class="keyFeaturesContainer">
             <article class="keyFeaturesContainer__keyFeaturesLeft">
