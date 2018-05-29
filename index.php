@@ -30,7 +30,7 @@
         <section class="intro">
             <article class="intro__welcome">
                 <h1 class="intro__welcome--welcomeTxt">We connect brands and influencers</h1>
-                <p class="intro__welcome--welcomeParagraph">Lorem ipsum dolor sit amet, duo simul audire an. Est cu sapientem sadipscing, duis legimus eum. Me it ipsum sit amet, duo simul audire an. </p>
+                <p class="intro__welcome--welcomeParagraph">MakeInfluence's platform brings businesses and influencers together. Through our platform you can find a perfect match for your next campaign! </p>
                 <a href="#"><button><i class="fas fa-user"></i> I am an influencer</button></a>
                 <a href="#"><button><i class="fas fa-building"></i> I am a business</button></a>
             </article>
@@ -40,17 +40,17 @@
             </article>
         </section>
         <section class="videoContainer">
-            <h2 class="videoContainer__videoHeading">Our video</h2>
+            <h2 class="videoContainer__videoHeading">Meet an influencer</h2>
             <iframe src="https://www.youtube.com/embed/SrC3bwgwQ4A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="videoContainer__video"></iframe>
         </section>
         <section class="keyFeaturesContainer">
             <article class="keyFeaturesContainer__keyFeaturesLeft">
-                <h3>Heading</h3>
-                <p>Lorem ipsum dolor sit amet, duo simul audire an. Est cu sapientem sadipscing, duis legimus eum. Me it ipsum sit amet, duo simul audire an.</p>
-                <h3>Heading</h3>
-                <p>Lorem ipsum dolor sit amet, duo simul audire an. Est cu sapientem sadipscing, duis legimus eum. Me it ipsum sit amet, duo simul audire an.</p>
-                <h3>Heading</h3>
-                <p>Lorem ipsum dolor sit amet, duo simul audire an. Est cu sapientem sadipscing, duis legimus eum. Me it ipsum sit amet, duo simul audire an.</p>
+                <h3>Campaigns</h3>
+                <p>The MakeInfluence app has a realtime dashboard that contains campaigns from various brands looking for influencers.</p>
+                <h3>Rating</h3>
+                <p>Both businesses and influencers have a profile rating. This can help you decide what business you want to work with.</p>
+                <h3>Schedule</h3>
+                <p>Having a hard time remembering when to upload something for a brand? MakeInfluence will remind you whenever you have to promote a product.</p>
             </article>
             <article class="keyFeaturesContainer__keyFeatures">
                 <h2 class="keyFeaturesContainer__keyFeaturesHeading">Key features</h2>
@@ -60,24 +60,24 @@
                 
             </article>
             <article class="keyFeaturesContainer__keyFeaturesRight">
-                <h3>Heading</h3>
-                <p>Lorem ipsum dolor sit amet, duo simul audire an. Est cu sapientem sadipscing, duis legimus eum. Me it ipsum sit amet, duo simul audire an.</p>
-                <h3>Heading</h3>
-                <p>Lorem ipsum dolor sit amet, duo simul audire an. Est cu sapientem sadipscing, duis legimus eum. Me it ipsum sit amet, duo simul audire an.</p>
-                <h3>Heading</h3>
-                <p>Lorem ipsum dolor sit amet, duo simul audire an. Est cu sapientem sadipscing, duis legimus eum. Me it ipsum sit amet, duo simul audire an.</p>
+                <h3>Payment</h3>
+                <p>All payments go through the MakeInfluence app. We make sure that you won't have to deal with brands being late on payday.</p>
+                <h3>Message</h3>
+                <p>Get in direct contact with your business partner through MakeInfluence's own messaging system.</p>
+                <h3>Analytics</h3>
+                <p>Keep track of your jobs and income. Optimize your social media posts based on statistics and create different strategies for your work.</p>
             </article>
         </section>
         <section class="dashboardContainer"><div></div>
             <img src="images/dashboard-statistics.jpg" alt="Dashboard with statistics" class="dashboardContainer__dashboardIndex">
             <article class="dashboardContainer__dashboardInformation">
-                <h3 class="dashboardContainer__dashboardHeading">Effective dashboard for businesses</h3>
-                <h4>Text</h4>
-                <p>Lorem ipsum dolor sit amet, duo simul audire an.</p>
-                <h4>Text</h4>
-                <p>Lorem ipsum dolor sit amet, duo simul audire an.</p>
-                <h4>Text</h4>
-                <p>Lorem ipsum dolor sit amet, duo simul audire an.</p>
+                <h3 class="dashboardContainer__dashboardHeading">Effective business dashboard</h3>
+                <h4>Analytics</h4>
+                <p>Keep track of your revenue, impressions, clicks and much more.</p>
+                <h4>Influencer value</h4>
+                <p>MakeInfluence gives you data about the influencers with the highest and lowest value for you.</p>
+                <h4>Export</h4>
+                <p>Export your data and use it for anything you want.</p>
                 <a href="business.php"><button>Learn more</button></a>
             </article>
             <div></div>

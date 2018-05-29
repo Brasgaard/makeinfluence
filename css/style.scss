@@ -69,6 +69,10 @@ strong {
     color:$dark-color;
 }
 
+.theme-color {
+    color:$theme-color;
+}
+
 button {
     background-color: $theme-color;
     font-size:$button-size;
@@ -255,6 +259,8 @@ footer {
         max-width:500px;
         margin:auto;
         margin-top:180px;
+        padding-bottom: 100px;
+        margin-bottom: 50px;
         
         &--welcomeTxt {
             margin:0;
@@ -434,7 +440,7 @@ footer {
         }
         
         h4 {
-            margin-bottom:20px;
+            margin-top:25px;
         }
         
     }
@@ -442,7 +448,7 @@ footer {
     &__dashboardHeading {
         float:left;
         margin:0;
-        margin-bottom:50px;
+        margin-bottom:30px;
         margin-top:350px;
         max-width:500px;
     }
@@ -1084,6 +1090,10 @@ footer {
             button {
                 margin-top:80px;
                 background-color:#85a191;
+                
+                &:hover {
+                    background-color:$dark-color;
+                }
             }    
         }
 
@@ -1113,6 +1123,10 @@ footer {
             button {
                 margin-top:80px;
                 background-color:#85a191;
+                
+                &:hover {
+                    background-color:$dark-color;
+                }
             }     
         }
     }

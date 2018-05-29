@@ -30,12 +30,8 @@
         <section class="businessIntro">
             <span></span>
             <article class="businessIntro__businessIntroContent">
-                <h1 class="businessIntro__businessIntroContent--heading">Business header</h1>
-                <p>Lorem ipsum dolor sit amet, nam te mnesarchum liberavisse, dolor consulatu consectetuer et per. Paulo bonorum labores ad duo, pri ex odio melius, vix in justo audiam. His fuisset epicurei aliquando in, legere semper saperet ea cum, per solum habemus et.<br/><br/>
-
-                Abhorreant signiferumque an vel, hinc aliquid conclusionemque sit in. Eum tractatos consequuntur at, mea brute decore an. Cu sed altera eirmod, nec ei omnium accommodare.<br/><br/>
-
-                Le consequuntur at, mea brute decore an. Cu sed altera eirmod, nec ei omnium accommodare.</p>
+                <h1 class="businessIntro__businessIntroContent--heading">Do you know the value of your social media content?</h1>
+                <p>Track your content performance in one place with the Performance Dashobard. Instantly see how you compare to your competitors or other industries by using the benchmarking feature.</p>
             </article>
             <img src="images/dashboard-graph.jpg" alt="Business dashboard with graph statistics">
         </section>
@@ -45,15 +41,13 @@
                 <div></div>
                 <article class="businessMoreInfo__moreInfoLeft">
                     <h3>Did you know that</h3>
-                    <p>Lorem ipsum dolor sit amet, nam te mnesarchum liberavisse, dolor consulatu consectetuer et per. Paulo bonorum labores ad duo, pri ex odio melius, vix in justo audiam. His fuisset epicurei aliquando in, legere semper saperet ea cum, per solum habemus et. 
-                    <br/><br/>
-                    Abhorreant signiferumque an vel, hinc aliquid conclusionemque sit in. Eum tractatos consequuntur at, mea brute decore an.</p>
+                    <p>Men are 2x more likely than women to be influenced by blog reviews while shopping in-store?<br/><br/>
+                    People aged between 13 and 24 are 2x more likely to evaluate influencers based on follower count than older audiences.
+                    </p>
                 </article>
                 <article class="businessMoreInfo__moreInfoRight">
-                    <h3>Did you know that</h3>
-                    <p>Lorem ipsum dolor sit amet, nam te mnesarchum liberavisse, dolor consulatu consectetuer et per. Paulo bonorum labores ad duo, pri ex odio melius, vix in justo audiam. His fuisset epicurei aliquando in, legere semper saperet ea cum, per solum habemus et. 
-                    <br/><br/>
-                    Abhorreant signiferumque an vel, hinc aliquid conclusionemque sit in. Eum tractatos consequuntur at, mea brute decore an.</p>
+                    <h3>Target the influencer's audience</h3>
+                    <p>50% of pet owners who post about their pets on social media have reported that pets get more attention than them. Pets are a really important part of our culture. Marketers can leverage pets effectively.</p>
                 </article>
             </section>
         </section>
@@ -63,7 +57,7 @@
             <section class="services">
                 <article class="serviceLeft">
                     <h4>Basic</h4>
-                    <strong>29€ <span class="dark-color">/ month</span></strong>
+                    <strong>10€ <span class="dark-color">/ month</span></strong>
                     <hr/>
                     <ul>
                         <li><span class="dark-color">Track 5 sales per day</span></li>
@@ -73,9 +67,9 @@
                     <button>Get basic</button>
                 </article>
                 <article class="serviceMiddle">
-                    <h4>Basic</h4>
+                    <h4>Premium</h4>
                     <h5>Most popular</h5>
-                    <strong>29€ <span class="dark-color">/ month</span></strong>
+                    <strong>25€ <span class="dark-color">/ month</span></strong>
                     <hr/>
                     <ul>
                         <li><span class="dark-color">Track unlimited sales</span></li>
@@ -86,15 +80,15 @@
                     <button>Get premium</button>
                 </article>
                 <article class="serviceRight">
-                    <h4>Basic</h4>
-                    <strong>29€ <span class="dark-color">/ month</span></strong>
+                    <h4>Trial</h4>
+                    <strong>Free <span class="dark-color">- 7 days</span></strong>
                     <hr/>
                     <ul>
                         <li><span class="dark-color">Track 5 sales per day</span></li>
                         <li><span class="dark-color">Basic analytics</span></li>
                         <li><span class="dark-color">Social Media insight</span></li>
                     </ul>
-                    <button>Get basic</button>
+                    <button>Try free</button>
                 </article>
             </section>
         </section>

@@ -38,25 +38,27 @@
 		</article>
 
 		<article class="introInfluencer__startHeading">
-			<h1 class="introInfluencer__startHeading--headingTxt">Influencer Heading Test</h1>
-			<p class="introInfluencer__startHeading--paragraphTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut erat eu elit viverra pellentesque. Nulla nec sem at diam bibendum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;<br><br> Nulla a tincidunt nisi. Nunc fringilla fringilla viverra. Mauris auctor diam vel lorem egestas, nec lobortis lectus vehicula. Mauris eu volutpat dolor. Donec maximus dictum purus vel dignissim. Phasellus ut accumsan tellus.<br><br> Suspendisse rhoncus iaculis arcu, et vulputate leo ornare non. Mauris eget pharetra felis, eu tincidunt nulla</p>
+			<h1 class="introInfluencer__startHeading--headingTxt">Get in touch with brands</h1>
+			<p class="introInfluencer__startHeading--paragraphTxt">MakeInfluence has various brands that matches all sorts of influencers. Whether you like clothing, interior design, pets or something completely different, we connect you with businesses that potentially will see you as their perfect match.<br/><br/>
+            We help you with all payments, statistics, legal stuff and remembering your deadlines!
+            </p>
 		</article>
 	</section>
     <h2 class="stepGuideHeading">How it works</h2>
 	<section class="stepGuide">
 		<article class="stepGuide__left">
 			<h3 class="stepGuide__left--signUpTxt">1. SIGN UP</h3>
-			<p class="stepGuide__left--paragraphTxt">Nunc fringilla fringilla viverra. Mauris auctor diam vel lorem egestas, nec lobortis lectus vehicula. <br><br> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+			<p class="stepGuide__left--paragraphTxt">Download our free app from AppStore og GooglePlay and sign up. Create a profile and tell the businesses about yourself.</p>
 		</article>
 
 		<article class="stepGuide__middle">
 			<h3 class="stepGuide__middle--promoteTxt">2. PROMOTE</h3>
-			<p class="stepGuide__middle--paragraphTxt">Nunc fringilla fringilla viverra. Mauris auctor diam vel lorem egestas, nec lobortis lectus vehicula. <br><br> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+			<p class="stepGuide__middle--paragraphTxt">You can apply for promotion campaigns or get headhunted by businesses. Once accepted you will get more information about the product that you have to promote.</p>
 		</article>
 
 		<article class="stepGuide__right">
 			<h3 class="stepGuide__right--getPaidTxt">3. GET PAID</h3>
-			<p class="stepGuide__right--paragraphTxt">Nunc fringilla fringilla viverra. Mauris auctor diam vel lorem egestas, nec lobortis lectus vehicula. <br><br> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+			<p class="stepGuide__right--paragraphTxt">You decide the price with the business. MakeInfluence then automatically deposits your revenue into your account, so you won't have to worry about a business not paying on time.</p>
 		</article>
 	</section>
 
@@ -64,27 +66,27 @@
 	<section class="testimonials">
 		<article class="testimonials__left">
 			<img class="testimonials__left--pictures" src="images/influencer-man.jpg" alt="Influencer man">
-			<p class="testimonials__left--paragraphTxt"><strong>"</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut erat eu elit viverra pellentesque. Nulla nec sem at diam bibendum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<strong>"</strong></p>
-			<p class="testimonials__left--follow">John Doe, <strong>@johnDoe</strong><br><strong>+30.000</strong> followers on Instagram</p>
+			<p class="testimonials__left--paragraphTxt"><span class="theme-color">"</span>MakeInfluence has made my life a lot easier. I used to contact different companies in hope of getting some work. Now they simply come to me instead!<span class="theme-color">"</span></p>
+			<p class="testimonials__left--follow">John Doe, <a href="https://www.instagram.com/" target="_blank"><strong>@johnDoe</strong></a><br><strong>+11.000</strong> followers on Instagram</p>
 		</article>
 
 		<article class="testimonials__right">
-			<img class="testimonials__right--picturesTest" src="images/influencer-woman.jpg" alt="Influencer man">
-			<p class="testimonials__right--paragraphTxtTest"><strong>"</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut erat eu elit viverra pellentesque. Nulla nec sem at diam bibendum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<strong>"</strong></p>
-			<p class="testimonials__right--follow">John Doe, <strong>@johnDoe</strong><br><strong>+30.000</strong> followers on Instagram</p>
+			<img class="testimonials__right--picturesTest" src="images/influencer-woman.jpg" alt="Influencer woman">
+			<p class="testimonials__right--paragraphTxtTest"><span class="theme-color">"</span>I did not realize that there was such a huge market for influencer marketing until I started using MakeInfluence. I only wish I started this when my Instagram profile was much newer!<span class="theme-color">"</span></p>
+			<p class="testimonials__right--follow">Jane Doe, <a href="https://www.instagram.com/" target="_blank"><strong>@janeDoe</strong></a><br><strong>+210.000</strong> followers on Instagram</p>
+		</article>
+        <article class="testimonials__left">
+			<img class="testimonials__left--pictures" src="images/influencer-camillajulie.jpg" alt="Influencer Camilla-Julie">
+			<p class="testimonials__left--paragraphTxt"><span class="theme-color">"</span>MakeInfluence's rating system makes you want to up your game, to get noticed by more businesses. I've recommended it to all my influencer colleagues!<span class="theme-color">"</span></p>
+			<p class="testimonials__left--follow">Camilla-Julie, <a href="https://www.instagram.com/camillajuliesh/" target="_blank"><strong>@camillajuliesh</strong></a><br><strong>+6.000</strong> followers on Instagram</p>
 		</article>
 
-		<article class="testimonials__left">
-			<img class="testimonials__left--pictures" src="images/influencer-woman.jpg" alt="Influencer man">
-			<p class="testimonials__left--paragraphTxt"><strong>"</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut erat eu elit viverra pellentesque. Nulla nec sem at diam bibendum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<strong>"</strong></p>
-			<p class="testimonials__left--follow">John Doe, <strong>@johnDoe</strong><br><strong>+30.000</strong> followers on Instagram</p>
-		</article>
-        
 		<article class="testimonials__right">
-			<img class="testimonials__right--pictures" src="images/influencer-man.jpg" alt="Influencer man">
-			<p class="testimonials__right--paragraphTxt"><strong>"</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut erat eu elit viverra pellentesque. Nulla nec sem at diam bibendum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<strong>"</strong></p>
-			<p class="testimonials__right--follow">John Doe, <strong>@johnDoe</strong><br><strong>+30.000</strong> followers on Instagram</p>
+			<img class="testimonials__right--picturesTest" src="images/influencer-girl.jpg" alt="Influencer girl">
+			<p class="testimonials__right--paragraphTxtTest"><span class="theme-color">"</span>I've never worked with any sort of marketing before. MakeInfluence has a natural and logic flow, and I felt like I knew what to do before I even got started. <span class="theme-color">"</span></p>
+			<p class="testimonials__right--follow">Janett Doe, <a href="https://www.instagram.com/" target="_blank"><strong>@janettDoe</strong></a><br><strong>+7.000</strong> followers on Instagram</p>
 		</article>
+
     </section>
 
 
