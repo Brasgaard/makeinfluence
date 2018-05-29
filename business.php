@@ -28,7 +28,7 @@
     <div class="gridContainer">
         <?php include'include/header.php'?>
         <section class="businessIntro">
-            <div></div>
+            <span></span>
             <article class="businessIntro__businessIntroContent">
                 <h1 class="businessIntro__businessIntroContent--heading">Business header</h1>
                 <p>Lorem ipsum dolor sit amet, nam te mnesarchum liberavisse, dolor consulatu consectetuer et per. Paulo bonorum labores ad duo, pri ex odio melius, vix in justo audiam. His fuisset epicurei aliquando in, legere semper saperet ea cum, per solum habemus et.<br/><br/>

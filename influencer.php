@@ -31,8 +31,10 @@
 	<section class="introInfluencer">
 		<article class="introInfluencer__startImg">
 			<img class="mobileBlog" src="images/app-notification-example.png" alt="Influencer notification">
-			<img class="appstoreImg" src="images/app-store.png" alt="App store download">
-			<img class="googleplayImg" src="images/google-play.png" alt="Google Play download">
+            <article class="download-app">
+                <a href="http://www.appstore.com" target="_blank"><img src="images/app-store.png" alt="Download on AppStore"></a>
+                <a href="http://play.google.com" target="_blank"><img src="images/google-play.png" alt="Download on Google Play"></a>
+            </article>
 		</article>
 
 		<article class="introInfluencer__startHeading">
@@ -40,7 +42,7 @@
 			<p class="introInfluencer__startHeading--paragraphTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut erat eu elit viverra pellentesque. Nulla nec sem at diam bibendum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;<br><br> Nulla a tincidunt nisi. Nunc fringilla fringilla viverra. Mauris auctor diam vel lorem egestas, nec lobortis lectus vehicula. Mauris eu volutpat dolor. Donec maximus dictum purus vel dignissim. Phasellus ut accumsan tellus.<br><br> Suspendisse rhoncus iaculis arcu, et vulputate leo ornare non. Mauris eget pharetra felis, eu tincidunt nulla</p>
 		</article>
 	</section>
-
+    <h2 class="stepGuideHeading">How it works</h2>
 	<section class="stepGuide">
 		<article class="stepGuide__left">
 			<h3 class="stepGuide__left--signUpTxt">1. SIGN UP</h3>
@@ -48,7 +50,6 @@
 		</article>
 
 		<article class="stepGuide__middle">
-			<h2 class="stepGuide__middle--howItWorksTxt">How it works</h2>
 			<h3 class="stepGuide__middle--promoteTxt">2. PROMOTE</h3>
 			<p class="stepGuide__middle--paragraphTxt">Nunc fringilla fringilla viverra. Mauris auctor diam vel lorem egestas, nec lobortis lectus vehicula. <br><br> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
 		</article>
@@ -59,9 +60,9 @@
 		</article>
 	</section>
 
+    <h2 class="testimonialsHeading">What do our influencers say?</h2>
 	<section class="testimonials">
 		<article class="testimonials__left">
-			<h2 class="testimonials__left--heading">What do our influencers say?</h2>
 			<img class="testimonials__left--pictures" src="images/influencer-man.jpg" alt="Influencer man">
 			<p class="testimonials__left--paragraphTxt"><strong>"</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut erat eu elit viverra pellentesque. Nulla nec sem at diam bibendum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<strong>"</strong></p>
 			<p class="testimonials__left--follow">John Doe, <strong>@johnDoe</strong><br><strong>+30.000</strong> followers on Instagram</p>
@@ -78,13 +79,13 @@
 			<p class="testimonials__left--paragraphTxt"><strong>"</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut erat eu elit viverra pellentesque. Nulla nec sem at diam bibendum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<strong>"</strong></p>
 			<p class="testimonials__left--follow">John Doe, <strong>@johnDoe</strong><br><strong>+30.000</strong> followers on Instagram</p>
 		</article>
-
+        
 		<article class="testimonials__right">
 			<img class="testimonials__right--pictures" src="images/influencer-man.jpg" alt="Influencer man">
 			<p class="testimonials__right--paragraphTxt"><strong>"</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut erat eu elit viverra pellentesque. Nulla nec sem at diam bibendum vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<strong>"</strong></p>
 			<p class="testimonials__right--follow">John Doe, <strong>@johnDoe</strong><br><strong>+30.000</strong> followers on Instagram</p>
 		</article>
-	</section>
+    </section>
 
 
 	<?php include'include/footer.php'?>

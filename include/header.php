@@ -1,5 +1,5 @@
 <header>
-    <img src="images/makeinfluence-logo-black.png" alt="MakeInfluence logo">
+    <a href="index.php"><img src="images/makeinfluence-logo-black.png" alt="MakeInfluence logo"></a>
         <ul class="menu">
             <li class="menu__menuBtn">
                 <a href="index.php" class="menu__menuBtn--menuLink">Home</a>
