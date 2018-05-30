@@ -15,13 +15,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Css and fonts-->
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link href="css/fontawesome-all.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Favicons -->
-	<link rel="icon" type="image/png" href="#" sizes="32x32" />
-	<link rel="icon" type="image/png" href="#" sizes="16x16" />
+	<link rel="icon" type="image/png" href="images/favicon32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="images/favicon16x16.png" sizes="16x16" />
 </head>
 <body>
 
