@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<!-- Title -->
 	<title>MakeInfluence - Grow your business with influencer marketing</title>

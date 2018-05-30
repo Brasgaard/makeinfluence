@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<!-- Title -->
 	<title>MakeInfluence - We connect brands and influencers</title>
@@ -31,8 +31,8 @@
             <article class="intro__welcome">
                 <h1 class="intro__welcome--welcomeTxt">We connect brands and influencers</h1>
                 <p class="intro__welcome--welcomeParagraph">MakeInfluence's platform brings businesses and influencers together. Through our platform you can find a perfect match for your next campaign! </p>
-                <a href="#"><button><i class="fas fa-user"></i> I am an influencer</button></a>
-                <a href="#"><button><i class="fas fa-building"></i> I am a business</button></a>
+                <form style="display: inline" action="influencer.php" method="post"><button><i class="fas fa-user"></i> I am an influencer</button></form>
+                <form style="display: inline" action="business.php" method="post"><button><i class="fas fa-building"></i> I am a business</button></form>
             </article>
             <article class="intro__welcomeImg">
                 <img src="images/iphone-instagram.png" class="iphoneInstagram" alt="Influencer marketing on Instagram">
@@ -54,9 +54,9 @@
             </article>
             <article class="keyFeaturesContainer__keyFeatures">
                 <h2 class="keyFeaturesContainer__keyFeaturesHeading">Key features</h2>
-                <img src="images/app-assignments.png"><br/>
-                <a href="http://www.appstore.com" target="_blank"><img src="images/app-store.png"></a>
-                <a href="http://play.google.com" target="_blank"><img src="images/google-play.png"></a>
+                <img src="images/app-assignments.png" alt="Assignments for the influencer app"><br/>
+                <a href="http://www.appstore.com" target="_blank"><img src="images/app-store.png" alt="Download app on AppStore"></a>
+                <a href="http://play.google.com" target="_blank"><img src="images/google-play.png" alt="Download app on GooglePlay"></a>
                 
             </article>
             <article class="keyFeaturesContainer__keyFeaturesRight">
@@ -78,7 +78,7 @@
                 <p>MakeInfluence gives you data about the influencers with the highest and lowest value for you.</p>
                 <h4>Export</h4>
                 <p>Export your data and use it for anything you want.</p>
-                <a href="business.php"><button>Learn more</button></a>
+                <form style="display: inline" action="business.php" method="post"><button>Learn more</button></form>
             </article>
             <div></div>
         </section>
