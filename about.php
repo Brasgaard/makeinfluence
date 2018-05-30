@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <!-- Title -->
-	<title>Title here</title>
+	<title>MakeInfluence - Influencer marketing - Who are we?</title>
 	
 	<!-- Description -->
 	<meta charset="UTF-8">
-	<meta name="Description" content="Insert your description here">
+	<meta name="Description" content="MakeInfluence is owned by two young danish entrepreneurs. We have years of experience and are ready to help you grow your business through influencer marketing.">
 
 	<!-- Keywords -->
-	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="keywords" content="influencer marketing, branding, promote, grow, business, startup, revenue, strategy">
 
 	<!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -2,18 +2,18 @@
 <html>
 <head>
 	<!-- Title -->
-	<title>Title here</title>
+	<title>MakeInfluence - We connect brands and influencers</title>
 	
 	<!-- Description -->
 	<meta charset="UTF-8">
-	<meta name="Description" content="Insert your description here">
+	<meta name="Description" content="MakeInfluence connects brands with influencers. We are a growing platform with a lot of interesting influencers and businesses!">
 
 	<!-- Keywords -->
-	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="keywords" content="influencer marketing, branding, promote, business, influencer, company, social media, affiliate">
 
 	<!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
 	<!-- Css and fonts-->
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link href="css/fontawesome-all.min.css" rel="stylesheet">

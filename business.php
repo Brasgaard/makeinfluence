@@ -2,14 +2,14 @@
 <html>
 <head>
 	<!-- Title -->
-	<title>Title here</title>
+	<title>MakeInfluence - Grow your business with influencer marketing</title>
 	
 	<!-- Description -->
 	<meta charset="UTF-8">
-	<meta name="Description" content="Insert your description here">
+    <meta name="Description" content="Market your brand through the best influencers in our Network. Custom made campaigns. Top bloggers, vloggers and social media personalities.">
 
 	<!-- Keywords -->
-	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="keywords" content="Marketing, influencer, promote, business, company, brand, branding, strategy, dashboard, analytics, statistics, blogger, instagram">
 
 	<!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
